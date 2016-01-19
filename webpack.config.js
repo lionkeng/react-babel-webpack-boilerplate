@@ -29,6 +29,6 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({ url: 'http://localhost:5050', browser: 'Google Chrome })
+    new OpenBrowserPlugin({ url: 'http://localhost:5050', browser: 'Google Chrome' })
   ]
 };
